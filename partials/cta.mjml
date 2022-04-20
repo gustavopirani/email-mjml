@@ -1,0 +1,35 @@
+<mj-wrapper background-color="#000000" border-radius="5px">  
+  <mj-section padding-top="10px" padding-bottom="0">    
+    <mj-column padding-bottom="0" width="80%">        
+      <mj-text
+        align="left"
+        color="#ffffff"
+        font-family="Poppins, Arial"
+        line-height="1.5"
+        font-size="16px"
+        padding-right="15px"
+        padding-left="15px">
+        <p class="center-on-mobile" style="margin: 0; font-weight: bold; font-size: 24px">Subscribe</p>
+        <p class="center-on-mobile" style="margin: 0;">Sign up for exclusive offers, original stories, activism awareness, events and more.</b></p>
+      </mj-text>       
+    </mj-column>
+  </mj-section>
+  <mj-section padding-top="0" padding-bottom="10px">
+    <mj-column>
+      <mj-button
+        font-family="Poppins, Arial"
+        font-size="16px"
+        font-weight="bold"
+        padding-bottom="0"
+        background-color="#ffffff"
+        color="#000000"
+        border-radius="20px"
+        href="#"
+        border="2px solid white"
+        css-class="zoom"
+        >
+        Sign Me Up
+      </mj-button>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>

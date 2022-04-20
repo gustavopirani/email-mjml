@@ -1,0 +1,21 @@
+<mj-section>
+  <mj-column>
+    <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" />
+  </mj-column>
+</mj-section>
+
+<mj-section padding-top="0">
+  <mj-column padding-top="0">
+     <mj-text
+      line-height="1.5"
+      font-family="Poppins, Arial"
+      color="#434343"
+      padding-top="0"
+      font-size="12px"
+      align="center"
+      font-weight="bold"
+      >
+        © 2022 Patagonia, Inc. All Rights Reserved.</p>
+    </mj-text>        
+  </mj-column>
+</mj-section>

@@ -1,0 +1,139 @@
+<mjml>
+  <mj-head>
+    <mj-title>Patagonia Black Friday</mj-title>
+    <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" />
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap" />
+    <mj-style>
+      @media all and (max-width: 480px) {
+        .hide-on-mobile {
+          display: none!important;
+        }
+        .top-space-on-mobile {
+          padding-top: 30px!important;  
+        }
+        .text-center-on-mobile {
+          text-align: center!important;
+        }
+        .center-on-mobile {
+          text-align: center!important;
+        }
+        .mj-carousel tbody {
+          align-items: center!important;
+          display: flex!important;
+          justify-content: center!important;
+        }
+      }
+        .hover:hover a { 
+          background-color: #fa4616!important; 
+        }
+        .zoom{
+          transition: transform .2s;
+        }
+        .zoom:hover {
+          transform: scale(1.08); 
+        }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#ffffff">
+    <mj-include path="partials/header.mjml"/>
+    <mj-include path="partials/mountain-hero.mjml" />
+    <mj-include path="partials/intro-text.mjml" />
+    <mj-include path="partials/divider.mjml" />
+
+    <mj-section>
+      <mj-column padding="5px" > <!--Product 1-->
+        <mj-carousel left-icon="images/left-arrow.png" right-icon="images/right-arrow.png" tb-width="40px" icon-width="35px">
+          <mj-carousel-image src="images/jacket-main.png" alt="Jacket Main" />
+          <mj-carousel-image src="images/jacket-front.png" alt="Jacket Front" />
+          <mj-carousel-image src="images/jacket-back.png" alt="Jacket Back" />
+        </mj-carousel>
+        <mj-text 
+            padding="10px 10px 0 10px" 
+            font-family="Poppins, Arial" 
+            align="center" 
+            color="#161616"
+            font-size="16px" 
+            line-height="1.5">
+            <h2 style="font-size: 16px; margin: 0; font-weight: normal;">Men's Houdini® Jacket</h2>
+            <s><p style="font-weight: bold; font-size: 14px; margin:0"><span style="font-size: 12px;">$</span>99</p></s>
+            <p style="font-weight: bold; font-size: 14px; margin:0">$<span style="font-size: 28px">90</span></p>
+        </mj-text>
+        <mj-button 
+          css-class="hover" 
+          font-family="Roboto, Arial" 
+          font-weight="bold" color="white" 
+          border-radius="12px" 
+          background-color="#000000" 
+          href="https://www.patagonia.com/product/mens-houdini-windbreaker-jacket/24142-ATPG.html?dwvar_24142-ATPG_color=ATPG&cgid=collections-seasonal-prints-mens"
+          >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+      <mj-column padding="5px"> <!--Product 2-->
+        <mj-carousel left-icon="images/left-arrow.png" right-icon="images/right-arrow.png" tb-width="40px" icon-width="35px">
+          <mj-carousel-image src="images/shorts-main.png" alt="Shorts Main" />
+          <mj-carousel-image src="images/shorts-front.png" alt="Shorts Front" />
+          <mj-carousel-image src="images/shorts-back.png" alt="Shorts Back" />
+        </mj-carousel>
+        <mj-text 
+            padding="5px 0" 
+            font-family="Poppins, Arial" 
+            align="center" 
+            color="#161616"
+            font-size="16px" 
+            line-height="1.5">
+            <h2 style="font-size: 16px; margin: 0; font-weight: normal;">Men's Hydropeak Boardshorts - 21"</h2>
+            <s><p style="font-weight: bold; font-size: 14px; margin:0"><span style="font-size: 12px;">$</span>69</p></s>
+            <p style="font-weight: bold; font-size: 14px; margin:0">$<span style="font-size: 28px;">62</span></p>
+        </mj-text>
+        <mj-button 
+          css-class="hover" 
+          font-family="Roboto, Arial" 
+          font-weight="bold" color="white" 
+          border-radius="12px" 
+          background-color="#000000" 
+          href="https://www.patagonia.com/product/mens-hydropeak-boardshorts-21-inch/86480-SSGY.html?dwvar_86480-SSGY_color=SSGY&cgid=collections-seasonal-prints-mens"
+          >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="50%" padding="5px"> <!--Product 3-->
+        <mj-carousel left-icon="images/left-arrow.png" right-icon="images/right-arrow.png" tb-width="40px" icon-width="35px">
+          <mj-carousel-image src="images/shirt-main.png" alt="Shirt Main" />
+          <mj-carousel-image src="images/shirt-front.png" alt="Shirt Front" />
+          <mj-carousel-image src="images/shirt-back.png" alt="Shirt Back" />
+        </mj-carousel>
+        <mj-text 
+            padding="10px 10px 0 10px" 
+            font-family="Poppins, Arial" 
+            align="center" 
+            color="#161616"
+            font-size="16px" 
+            line-height="1.5">
+            <h2 style="font-size: 16px; margin: 0; font-weight: normal;">Men's Capilene® Cool Trail Bike Henley</h2>
+            <s><p style="font-weight: bold; font-size: 14px; margin:0"><span style="font-size: 12px;">$</span>55</p></s>
+            <p style="font-weight: bold; font-size: 14px; margin:0">$<span style="font-size: 28px;">49</span></p>
+        </mj-text>
+        <mj-button 
+          css-class="hover" 
+          font-family="Roboto, Arial" 
+          font-weight="bold" color="white" 
+          border-radius="12px" 
+          background-color="#000000" 
+          href="https://www.patagonia.com/product/mens-capilene-cool-trail-bike-henley/24431-LTPG.html?dwvar_24431-LTPG_color=LTPG&cgid=collections-seasonal-prints-mens"
+          >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="partials/cta.mjml" />
+    <mj-include path="partials/social-media.mjml" /> 
+    <mj-include path="partials/footer.mjml" /> 
+  </mj-body>
+</mjml>

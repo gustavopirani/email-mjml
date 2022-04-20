@@ -1,0 +1,13 @@
+<mj-section padding-top="0" padding-bottom="0">
+  <mj-column>
+    <mj-text
+      padding-bottom="0"
+      color="#1C1C1C" 
+      align="center" 
+      line-height="1.5" 
+      font-family="Poppins, Arial" 
+      font-size="16px">
+      <p>Hi [NAME] – we've got Black Friday Cyber Monday deals you can buy online and pick up in-store!</p>
+    </mj-text>
+  </mj-column>
+</mj-section>

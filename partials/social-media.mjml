@@ -1,0 +1,15 @@
+<mj-section padding-top="25px" padding-bottom="0">
+  <mj-column padding-top="0" padding-bottom="0">
+    <mj-text padding-bottom="0" font-family="Inter, sans-serif" color="#333333" font-size="16px" align="center" line-height="1.5">
+      <a href="http://www.facebook.com/PATAGONIA" target="_blank" style="text-decoration: none;">
+        <img width="20" height="32" src="images/facebook-logo.png" alt="Facebook Logo" />
+      </a>
+      <a href="http://instagram.com/patagonia" target="_blank" style="text-decoration: none; margin-left: 20px;">
+        <img width="30" height="34" src="images/instagram-logo.png" alt="Instagram Logo" />
+      </a>
+      <a href="https://twitter.com/@Patagonia" target="_blank" style="text-decoration: none; margin-left: 20px;">
+        <img width="36" height="38" src="images/twitter-logo.png" alt="twitter-logo" />
+      </a>
+    </mj-text>
+  </mj-column>
+</mj-section>
